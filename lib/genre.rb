@@ -15,7 +15,6 @@ class Genre
   end
   
   def songs
-    Artist.all
     binding.pry
     end
   end
