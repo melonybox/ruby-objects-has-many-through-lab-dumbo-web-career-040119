@@ -1,4 +1,3 @@
-require_relative 'genre'
 require 'pry'
 
 class Genre
