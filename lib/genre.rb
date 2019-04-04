@@ -1,4 +1,3 @@
-require_relative 'artist'
 require 'pry'
 
 class Genre
@@ -16,7 +15,7 @@ class Genre
   end
   
   def songs
-    big_list = Artist.all
+    Artist.all
     binding.pry
     end
   end
