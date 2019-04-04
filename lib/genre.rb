@@ -15,6 +15,7 @@ class Genre
   end
   
   def songs
+    binding.pry
     song_list = Artist.songs
     
     song_list.collect! do |x|
