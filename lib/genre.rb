@@ -1,3 +1,4 @@
+require_relative 'artist'
 require 'pry'
 
 class Genre
