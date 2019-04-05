@@ -3,7 +3,7 @@ class Doctor
   
   attr_reader :name
   
-  def initialized(name)
+  def initialize(name)
     @name = name
     @@all << self
   end
