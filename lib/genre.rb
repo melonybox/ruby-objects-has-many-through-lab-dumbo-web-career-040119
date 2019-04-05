@@ -18,8 +18,7 @@ class Genre
     big_list = Song.all
     
     big_list.select do |x|
-      binding.pry
-      x.artist == self
+      x.genre == self
     end
   end
   
