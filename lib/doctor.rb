@@ -17,9 +17,8 @@ class Doctor
   end
   
   def appointments
-    Appointment.all
-    binding.pry
-    Song.all.select do |x|
+    Appointment.all.select do |x|
+      binding.pry
       x.artist == self
     end
   end
