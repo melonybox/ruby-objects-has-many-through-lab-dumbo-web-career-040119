@@ -18,8 +18,7 @@ class Doctor
   
   def appointments
     Appointment.all.select do |x|
-      binding.pry
-      x.artist == self
+      x.doctor == self
     end
   end
   
