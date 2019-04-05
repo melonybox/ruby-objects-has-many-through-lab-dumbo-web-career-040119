@@ -26,7 +26,7 @@ class Doctor
     doc_list = self.appointments
     
     doc_list.collect! do |x|
-      
+      binding.pry
     end
   end
   
