@@ -13,6 +13,6 @@ class Patient
   end
   
   def new_appointment(name, date)
-    
+    Song.new(name, self, date)
   end
 end
