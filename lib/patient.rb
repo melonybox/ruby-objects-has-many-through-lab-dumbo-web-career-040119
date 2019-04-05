@@ -21,4 +21,8 @@ class Patient
       x.patient == self
     end
   end
+  
+  def doctors
+    
+  end
 end
