@@ -15,7 +15,8 @@ class Genre
   end
   
   def songs
-    Artist.all
+    big_list = Artist.all
+    
   end
   
 end
