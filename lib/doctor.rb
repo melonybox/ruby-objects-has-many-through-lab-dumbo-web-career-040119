@@ -1,7 +1,7 @@
 class Doctor
   @@all = []
   
-  def initialized(name)
+  def initialized=(name)
     @name = name
     @@all << self
   end
