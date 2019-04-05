@@ -24,6 +24,8 @@ class Genre
   
   def artists
     bog_list = self.songs
+    
+    bog_list.collect! do
     binding.pry
   end
   
