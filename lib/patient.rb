@@ -3,12 +3,16 @@ class Patient
   
   attr_reader :name
   
-  def initialize
+  def initialize(name)
     @name = name
     @@all << self
   end
   
   def self.all
     @@all
+  end
+  
+  def new_appointment
+    
   end
 end
