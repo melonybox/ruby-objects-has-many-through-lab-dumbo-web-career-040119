@@ -15,7 +15,7 @@ class Genre
   end
   
   def songs
-    big_list = Artist.all
+    big_list = Song.all
     
     big_list.select do |x|
       binding.pry
