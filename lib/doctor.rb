@@ -23,7 +23,11 @@ class Doctor
   end
   
   def patients
+    doc_list = self.appointments
     
+    doc_list.collect! do |x|
+      
+    end
   end
   
 end
