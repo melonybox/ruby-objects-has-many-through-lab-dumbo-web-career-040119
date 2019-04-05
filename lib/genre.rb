@@ -20,6 +20,7 @@ class Genre
     big_list.select do |x|
       x.genre == self
     end
+    binding.pry
   end
   
   def artists
