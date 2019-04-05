@@ -22,4 +22,8 @@ class Genre
     end
   end
   
+  def artists
+    binding.pry
+  end
+  
 end
