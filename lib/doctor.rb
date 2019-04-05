@@ -1,4 +1,4 @@
-class Docter
+class Doctor
   @@all = []
   
   def initialized(name)
